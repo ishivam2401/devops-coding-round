@@ -1,0 +1,9 @@
+1.we have created two subnets 
+Public and private 
+The application is deployed in the public subnet and database is in private subnet .
+2.to make the application highly available we have attached a auto scaling group and a application load balancer that will also 
+perform health checks and mark the unhealthy instances. 
+3. The security group attached to the rds will only allow inbound access to t2.xlarge.
+4.We have choosen t2.xlarge inorder to handle large number of requests/seconds and provide low latency.
+5.Rds will be providing automatic backups 
+
